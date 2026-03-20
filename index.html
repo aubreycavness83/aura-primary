@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My New Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="navbar-placeholder"></div>
+
+    <section class="hero">
+        <div id="customSlider" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#customSlider" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#customSlider" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#customSlider" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="carousel-image" src="images/984151510.webp" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h1 class="carousel-title">Aura Primary Care <br> And Wellness</h1>
+                        <p class="hero-subtitle">Your Journey to Lasting Health Starts Here</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-image" src="images/AdobeStock_830145388.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h1 class="carousel-title">Aura Primary Care <br> And Wellness</h1>
+                        <p class="hero-subtitle">Your Journey to Lasting Health Starts Here</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-image" src="images/6916341a4e03afcaafa5f163_484784515.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h1 class="carousel-title">Aura Primary Care <br> And Wellness</h1>
+                        <p class="hero-subtitle">Your Journey to Lasting Health Starts Here</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#customSlider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#customSlider" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+
+    <section class="welcome container">
+        <div class="welcome-section">
+            <div class="welcome__text--wrap">
+                <h3 class="welcome-title">Welcome to Aura Primary Care & Wellness</h3>
+                <p class="welcome-subtitle">Your Health Reimagined Through Mindful Care</p>
+                <p class="welcome-text">At Aura Primary Care & Wellness, we believe that true health is a lifelong
+                    journey, not a
+                    destination. Our practice was founded on the principle that every person deserves a healthcare
+                    partner who listens, understands, and empowers them. By creating a space that feels more like a
+                    sanctuary than a clinic, we invite the community of Phoenix, AZ to experience a more intentional
+                    approach to well-being. Here, we prioritize the human connection, ensuring that every individual who
+                    walks through our doors feels seen, supported, and inspired to live their most vibrant life.</p>
+                <a href="about-us.html" class="btn">Learn About Aura Primary Care and Wellness</a>
+            </div>
+            <div class="welcome__image--wrap">
+                <img class="welcome-image" src="images/4848545145.jpg" alt="Doctor talking to a woman">
+            </div>
+        </div>
+    </section>
+
+    <section class="services container">
+        <h3 class="services-title">Our Services</h3>
+        <div class="services-grid">
+            <div class="service-card">
+                <img src="images/14894841851.webp" class="service-image" alt="Primary Care">
+                <div class="service-overlay">
+                    <h3 class="category-name">Primary Care</h3>
+                    <div class="hover-content">
+                        <ul class="service-links">
+                            <li><a href="primary-care.html">Primary Care</a></li>
+                            <li><a href="lab-services.html">Lab Services</a></li>
+                            <li><a href="telehealth.html">Telehealth</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <img src="images/65ef812adcd3a953e40af9d9_119325652.webp" class="service-image" alt="Wellness">
+                <div class="service-overlay">
+                    <h3 class="category-name">Wellness</h3>
+                    <div class="hover-content">
+                        <ul class="service-links">
+                            <li><a href="weight-management.html">Weight Management</a></li>
+                            <li><a href="mental-health.html">Integrated Mental Health</a></li>
+                            <li><a href="womens-health.html">Women’s Health</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="text-banner">
+        <div class="text-banner-section">
+            <div class="text-banner-wrap">
+                <h3 class="text-banner-title">Your Health, Reimagined and Elevated</h3>
+                <p class="subtitle">Experience Wellness Without the Limits</p>
+                <p class="text-banner-text">At Aura Primary Care & Wellness, we’re breaking the mold of traditional
+                    medicine to bring something
+                    entirely new to Phoenix, AZ. We believe you deserve more than a quick appointment—you deserve a
+                    partner who is as invested in your vitality as you are. By blending high-level care with a
+                    sanctuary-like experience, we invite you to step into a space where your goals are heard and your
+                    potential is limitless. It’s time to stop settling for "fine" and start living your most vibrant
+                    life.</p>
+            </div>
+            <div class="text-banner-image-wrap">
+                <img class="text-banner-image" src="images/AdobeStock_363563655.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="featured container">
+        <div class="featured-services">
+            <div class="featured-image-wrap">
+                <img class="featured-image" src="images/1854554151.jpg" alt="">
+            </div>
+            <div class="featured-text-wrap">
+                <h3 class="featured-title">Women’s Health</h3>
+                <p class="featured-subtitle">Personalized Wellness for Every Woman</p>
+                <p>Women’s health encompasses a wide-reaching spectrum of physical, hormonal, and emotional transitions
+                    that evolve throughout a lifetime. Navigating these changes requires a deep focus on preventative
+                    screenings, hormonal equilibrium, and reproductive wellness. From the early years of adulthood
+                    through the nuances of maturation and beyond, the priority remains on fostering a state of complete
+                    well-being. By addressing the specific biological needs of the female body and emphasizing the
+                    importance of preventative care, individuals can maintain their vitality and strength. This approach
+                    ensures that every life stage is met with the appropriate support, knowledge, and attention required
+                    for a healthy and vibrant future.</p>
+                <a href="womens-health.html" class="btn">Women's Health</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured container">
+        <div class="featured-services">
+            <div class="featured-text-wrap">
+                <h3 class="featured-title">Primary Care</h3>
+                <p class="featured-subtitle">Your Foundation for Better Living</p>
+                <p>Primary Care serves as the essential first point of contact for maintaining overall health and
+                    preventing chronic conditions. It involves a comprehensive view of the individual, focusing on
+                    routine check-ups, early detection of potential issues, and the management of everyday wellness. By
+                    establishing a consistent baseline for health, small changes can be monitored before they become
+                    significant concerns. This proactive model of care emphasizes the importance of a strong foundation,
+                    ensuring that all aspects of physical and mental well-being are addressed. A dedicated approach to
+                    health allows for a more organized, informed, and steady path toward longevity and sustained
+                    resilience.</p>
+                <a href="primary-care.html" class="btn">Primary Care</a>
+            </div>
+            <div class="featured-image-wrap">
+                <img class="featured-image" src="images/487484854158.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="featured container">
+        <div class="featured-services">
+            <div class="featured-image-wrap">
+                <img class="featured-image" src="images/21584515151.webp" alt="">
+            </div>
+            <div class="featured-text-wrap">
+                <h3 class="featured-title">Weight Management</h3>
+                <p class="featured-subtitle">Sustainable Paths for Weight Loss</p>
+                <p>Weight Management is built upon a foundation of sustainable habits and a comprehensive understanding
+                    of the body’s energy balance to ensure successful weight loss. It involves shifting the physical
+                    composition through mindful choices that prioritize long-term health over temporary results. By
+                    focusing on nutrient density and consistent movement, the body can effectively reduce excess stored
+                    energy while preserving vital muscle tissue and strength. This process is about more than just
+                    numbers; it is about reclaiming physical agility and reducing the systemic stress associated with
+                    carrying extra weight. Achieving a healthy weight fosters improved mobility, better sleep quality,
+                    and lower chronic risks.</p>
+                <a href="weight-management.html" class="btn">Weight Management</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="cta-video-wrap">
+            <video src="Istock-1758806742.mp4" autoplay muted loop playsinline></video>
+        </div>
+        <div class="cta-text-wrap">
+            <h3 class="cta-title">Begin Your Journey Today</h3>
+            <p class="subtitle">Take the First Step Toward Vitality</p>
+            <p>Aura Primary Care & Wellness is located in Phoenix, AZ. Schedule An Appointment to experience a dedicated
+                partner in your long-term health. Our practice is built upon a foundation of clinical excellence and a
+                modern approach to care, ensuring that every patient receives the professional expertise and commitment
+                they require.</p>
+            <a href="contact.html" class="btn">Schedule An Appointment</a>
+        </div>
+    </section>
+
+
+    <section class="contact-form container">
+        <div class="contact-form-section">
+            <div class="contact-form-image-wrap">
+                <img class="contact-form-image" src="images/AdobeStock_290607977 (1).jpg" alt="Patient consultation">
+            </div>
+
+            <div class="contact-form-content">
+                <h3 class="contact-form-title">Send Us a Message</h3>
+                <p class="contact-form-subtitle">We’re here to support your health journey.</p>
+
+                <form class="contact-form-fields" action="#" method="post">
+                    <div class="field-wrap">
+                        <label for="fullName">Name</label>
+                        <input id="fullName" name="fullName" type="text" placeholder="Enter your full name" required>
+                    </div>
+
+                    <div class="field-wrap">
+                        <label for="phone">Phone</label>
+                        <input id="phone" name="phone" type="tel" placeholder="(555) 123-4567" required>
+                    </div>
+
+                    <div class="field-wrap field-full">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" placeholder="name@email.com" required>
+                    </div>
+
+                    <div class="field-wrap field-full">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="How can we help you today?"
+                            required></textarea>
+                    </div>
+
+                    <a href="#" class="btn">Submit</a>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer-placeholder">
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
