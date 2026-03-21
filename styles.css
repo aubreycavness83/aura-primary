@@ -89,6 +89,16 @@ h6,
     margin-left: 1.25rem;
     padding: 0.65rem 1.4rem;
     white-space: nowrap;
+    position: relative;
+    overflow: hidden;
+}
+
+.navbar-appointment-btn::after {
+    content: "";
+    position: absolute;
+    inset: 5px;
+    border: 1px solid #fff;
+    pointer-events: none;
 }
 
 .navbar-appointment-btn:hover,
@@ -334,6 +344,44 @@ h6,
 .service-card:hover .hover-content {
     opacity: 1;
     transform: translateY(0);
+}
+
+@media (max-width: 991.98px) {
+    .service-card {
+        cursor: default;
+    }
+
+    .service-overlay {
+        justify-content: flex-end;
+        align-items: flex-start;
+        text-align: left;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.82) 0%, rgba(0, 0, 0, 0.15) 65%);
+    }
+
+    .hover-content {
+        position: static;
+        opacity: 1;
+        transform: none;
+        margin-top: 0.85rem;
+    }
+
+    .category-name {
+        opacity: 1;
+        transform: none;
+    }
+
+    .service-card:hover .service-image {
+        transform: none;
+    }
+
+    .service-card:hover .service-overlay {
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.82) 0%, rgba(0, 0, 0, 0.15) 65%);
+    }
+
+    .service-card:hover .category-name {
+        opacity: 1;
+        transform: none;
+    }
 }
 
 .text-banner {
